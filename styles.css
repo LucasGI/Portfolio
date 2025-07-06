@@ -485,6 +485,13 @@ html {
   .galeria {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .proyecto img {
+  border-radius: 12px;
+  object-fit: cover;
+  height: 175px;
+}
+
 }
 
 
