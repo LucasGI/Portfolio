@@ -487,3 +487,52 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+  .presentacion h1 {
+    font-size: 2rem;
+  }
+
+  .presentacion p {
+    font-size: 1rem;
+  }
+
+  .proyecto {
+    flex-direction: column !important;
+  }
+
+  .proyecto img,
+  .sobre-mi-foto,
+  .sobre-mi-texto,
+  .descripcion {
+    max-width: 100%;
+    flex: none;
+  }
+
+  .sobre-mi-texto,
+  .descripcion {
+    text-align: center;
+  }
+
+  /* Ajustar botones en presentación */
+  .presentacion a {
+    margin: 8px 5px;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+  }
+}
+
+/* Pantallas muy chicas (celulares) */
+@media (max-width: 400px) {
+  .presentacion h1 {
+    font-size: 1.6rem;
+  }
+
+  .presentacion p {
+    font-size: 0.9rem;
+  }
+
+  .curva-abajo svg,
+  .curva-arriba svg {
+    height: 60px;
+  }
+}
