@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8" />
+  <title>Conversores Simples</title>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">← Volver a inicio</a>
+  </nav>
+
+  <div class="contenedorConv">
+
+    <!-- Km a Millas -->
+    <div class="caja">
+      <h2>Kilómetros a Millas</h2>
+      <input type="number" id="km" placeholder="Ingresa kilómetros">
+      <button onclick="convertirKmAMi()">Convertir</button>
+      <div class="resultado" id="resKmMi">Resultado: -</div>
+    </div>
+
+    <!-- Millas a Km -->
+    <div class="caja">
+      <h2>Millas a Kilómetros</h2>
+      <input type="number" id="mi" placeholder="Ingresa millas">
+      <button onclick="convertirMiAKm()">Convertir</button>
+      <div class="resultado" id="resMiKm">Resultado: -</div>
+    </div>
+
+    <!-- Celsius a Fahrenheit -->
+    <div class="caja">
+      <h2>Celsius a Fahrenheit</h2>
+      <input type="number" id="c" placeholder="Ingresa °C">
+      <button onclick="convertirCaF()">Convertir</button>
+      <div class="resultado" id="resCaF">Resultado: -</div>
+    </div>
+
+    <!-- Fahrenheit a Celsius -->
+    <div class="caja">
+      <h2>Fahrenheit a Celsius</h2>
+      <input type="number" id="f" placeholder="Ingresa °F">
+      <button onclick="convertirFaC()">Convertir</button>
+      <div class="resultado" id="resFaC">Resultado: -</div>
+    </div>
+
+    <!-- Pesos a Dólares -->
+    <div class="caja">
+      <h2>Pesos Argentinos a Dólares</h2>
+      <input type="number" id="ars" placeholder="Ingresa ARS">
+      <button onclick="convertirArsUsd()">Convertir</button>
+      <div class="resultado" id="resArsUsd">Resultado: -</div>
+    </div>
+
+    <!-- Dólares a Pesos -->
+    <div class="caja">
+      <h2>Dólares a Pesos Argentinos</h2>
+      <input type="number" id="usd" placeholder="Ingresa USD">
+      <button onclick="convertirUsdArs()">Convertir</button>
+      <div class="resultado" id="resUsdArs">Resultado: -</div>
+    </div>
+
+  </div>
+
+ <script src="conversor.js"></script>
+</body>
+</html>
