@@ -479,7 +479,7 @@ html {
   font-size: 14px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   .galeria {
     grid-template-columns: repeat(2, 1fr);
   }
