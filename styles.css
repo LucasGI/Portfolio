@@ -165,7 +165,6 @@ section {
   color: beige;
   box-shadow: 0 4px 12px rgba(0, 0, 50, 0.6);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: default;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,7 +180,6 @@ section {
 
 /* Hover contacto */
 .caja-contacto:hover {
-  transform: translateY(-8px);
   box-shadow: 0 12px 25px rgba(0, 0, 80, 0.8);
   background-color: #2C3B70;
 }
