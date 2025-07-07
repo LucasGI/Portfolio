@@ -223,7 +223,25 @@ footer {
   padding: 20px;
   background: #0D0155;
   color: beige;
+  margin-top: 40px;
 }
+
+.footer-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+  
+}
+
+footer a {
+  color: beige;
+  text-decoration: underline;
+  font-weight: bold;
+  
+}
+
 
 /* ----------------- */
 /* Curvas SVG para separación de secciones */
@@ -492,4 +510,4 @@ html {
 
 }
 
-
+/* Footer */
